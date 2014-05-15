@@ -1,5 +1,6 @@
 #this script destroy the generated VM's
 read count;
+to_dir=$count;
 while [ $count -ne 0 ]
 do
 	cd v$count;
@@ -10,3 +11,4 @@ do
 	count=`expr $count - 1`;
 	cd ..
 done
+sh remove.sh $to_dir;
