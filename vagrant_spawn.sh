@@ -1,5 +1,6 @@
 #scripts to spawn new VM and make them Up and running
 read count;
+par_for_work=$count;
 while [ $count -ne 0 ]
 do
 	mkdir v$count;
@@ -17,4 +18,4 @@ do
 	count=`expr $count - 1`;
 done
 echo "All the VM's are spawned and running and UP";
-
+sh worker.sh $par_for_work;
