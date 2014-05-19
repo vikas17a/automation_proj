@@ -1,0 +1,161 @@
+ 
+ 
+Starting the script to spawn VM's at Mon May 19 13:14:35 IST 2014
+Waiting for user response to spawn machines
+Got the response from user 3 
+Creating directory v3
+Directory created v3
+Copying Vagrantfile to v3
+Vagrantfile copied to v3
+Copying .box preconfigured file to v3
+.box file copied to v3
+Directory v3 created
+Initializing the vagrant machine 3 envoirnment
+Vagrant machine 3 enviornment initialized
+Vagrant machine 3 is goint up now
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'pre_configured.box'...
+[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+==> default: Setting the name of the VM: v3_default_1400485512351_45567
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 22 => 2222 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2222
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+    default: Warning: Connection timeout. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default: 
+    default: Guest Additions Version: 4.2.0
+    default: VirtualBox Version: 4.3
+==> default: Mounting shared folders...
+    default: /vagrant => C:/Users/Vikas Agarwal/Desktop/vg_test/v3
+Vagrant Machine 3 is Up and Running
+
+Creating directory v2
+Directory created v2
+Copying Vagrantfile to v2
+Vagrantfile copied to v2
+Copying .box preconfigured file to v2
+.box file copied to v2
+Directory v2 created
+Initializing the vagrant machine 2 envoirnment
+Vagrant machine 2 enviornment initialized
+Vagrant machine 2 is goint up now
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'pre_configured.box'...
+[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+==> default: Setting the name of the VM: v2_default_1400485613258_9844
+==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 22 => 2200 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2200
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+    default: Warning: Connection timeout. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default: 
+    default: Guest Additions Version: 4.2.0
+    default: VirtualBox Version: 4.3
+==> default: Mounting shared folders...
+    default: /vagrant => C:/Users/Vikas Agarwal/Desktop/vg_test/v2
+Vagrant Machine 2 is Up and Running
+
+Creating directory v1
+Directory created v1
+Copying Vagrantfile to v1
+Vagrantfile copied to v1
+Copying .box preconfigured file to v1
+.box file copied to v1
+Directory v1 created
+Initializing the vagrant machine 1 envoirnment
+Vagrant machine 1 enviornment initialized
+Vagrant machine 1 is goint up now
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'pre_configured.box'...
+[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+==> default: Setting the name of the VM: v1_default_1400485718928_35589
+==> default: Fixed port collision for 22 => 2222. Now on port 2201.
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 22 => 2201 (adapter 1)
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+    default: SSH address: 127.0.0.1:2201
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default: Warning: Connection timeout. Retrying...
+    default: Warning: Connection timeout. Retrying...
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+    default: The guest additions on this VM do not match the installed version of
+    default: VirtualBox! In most cases this is fine, but in rare cases it can
+    default: prevent things such as shared folders from working properly. If you see
+    default: shared folder errors, please make sure the guest additions within the
+    default: virtual machine match the version of VirtualBox you have installed on
+    default: your host and reload your VM.
+    default: 
+    default: Guest Additions Version: 4.2.0
+    default: VirtualBox Version: 4.3
+==> default: Mounting shared folders...
+    default: /vagrant => C:/Users/Vikas Agarwal/Desktop/vg_test/v1
+Vagrant Machine 1 is Up and Running
+
+Operation completed and all the machine's are up and running Mon May 19 13:19:43 IST 2014
+######################################################
+***VM destruction started Mon May 19 13:25:05 IST 2014 ***
+Waiting for user to enter the number of VM's
+Destroying Virtual Machine 2
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+VM 2 destroyed
+Destroying Virtual Machine 1
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+VM 1 destroyed
+Directories removed operation Completed ....
+***VM destruction started Mon May 19 13:28:03 IST 2014 ***
+Waiting for user to enter the number of VM's
+***VM destruction started Mon May 19 13:29:05 IST 2014 ***
+Waiting for user to enter the number of VM's
+Destroying Virtual Machine 3
+==> default: Forcing shutdown of VM...
+==> default: Destroying VM and associated drives...
+VM 3 destroyed
+ 
+ 
+Starting the script to spawn VM's at Mon May 19 13:30:33 IST 2014
+Waiting for user response to spawn machines
+Got the response from user 3 
+Creating directory v3
+Directory created v3
+Copying Vagrantfile to v3
+Vagrantfile copied to v3
+Copying .box preconfigured file to v3
