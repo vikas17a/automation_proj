@@ -25,7 +25,14 @@ fi
 while read line
 do
 	req=`echo $line | awk '{ print $1 }'`;
-	echo "ab -n $1 -c $1 $req" >> work
+	num=`echo $line | awk '{ print $2 }'`;
+	echo "num=0;" >> work
+	echo "while [ \$num -ne $num ]" >> work
+	echo "do" >> work
+	echo "	ab -n $1 -c $1 $req" >> work
+	echo "	sleep 1" >> work
+	echo "	num=\`expr \$num - 1\`" >> work
+	echo "done" >> work
 
 done < parsed_output.txt
 
